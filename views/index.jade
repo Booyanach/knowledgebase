@@ -1,0 +1,27 @@
+extends layout
+
+block content
+	.navbar.navbar-fixed-top
+		.navbar-inner
+			.container
+				a.brand(href='/') KnowledgeBase
+				.nav-collapse
+					ul.nav
+						li.active
+							a(href='/login') Login
+
+	.container
+		//login form
+		.login-form
+			form#login-form.form-horizontal(method='post', action='/login')
+				.control-group
+					label.control-label(for='input-username') Username
+					.controls
+						input(id='input-username', name='username', type='text', placeholder='Username')
+				.control-group
+					label.control-label(for='input-password') Password
+					.controls
+						input(id='input-password', name='password', type='password', placeholder='Password')
+				.control-group
+					.controls
+						button.btn(type='submit') Sign in
