@@ -4,6 +4,7 @@
  */
 
 exports.index = function(req, res){
+	// this will render PAIN in the merge!
   res.render('index', { title: 'KnowledgeBase KakaBorrachaDeNavalha' });
 };
 
