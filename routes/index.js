@@ -4,5 +4,5 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'KnowledgeBase' });
+  res.render('index', { title: 'KnowledgeBase KakaBorrachaDeNavalha' });
 };
