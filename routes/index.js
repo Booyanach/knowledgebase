@@ -9,6 +9,6 @@ exports.index = function(req, res){
 };
 
 exports.jaap = function(req, res){
-  res.render('index', { title: 'jaap' });
+  res.render('index', { title: 'WaZaaAaaA -MotherF' });
 }
 
