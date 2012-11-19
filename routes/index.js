@@ -4,9 +4,9 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'KnowledgeBase' });
+  res.render('index', { title: 'KnowledgeBase KakaBorrachaDeNavalha' });
 };
 
 exports.jaap = function(req, res){
   res.render('index', { title: 'jaap' });
-};
+}
